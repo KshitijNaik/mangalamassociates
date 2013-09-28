@@ -22,7 +22,26 @@ body {background:#fff; font:11px Verdana, Arial, Helvetica, sans-serif; color:#3
 h1#logo { font: bold 48px Tahoma, Geneva, sans-serif; color:#368291;}
 #content #sidebar {
 	background: url(../images/hotbg.jpg) repeat;
+	background-color: #E3F6FC;
+	height:500px;
 }
+
+
+#maps
+{
+ background-color: white;
+ height:500px;
+ border:1px solid;
+ margin:10px;
+}
+
+#contactform{
+ background-color: white;
+ height:383px;
+ border:1px solid;
+ margin:10px;
+}
+
 
 #search {background:url(../images/searchbg.jpg); height:301px;}
 .hot {background:url(../images/hotbg.jpg); height:301px;}
