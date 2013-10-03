@@ -15,7 +15,7 @@ ul {list-style:none;}
 body {background:#fff; font:11px Verdana, Arial, Helvetica, sans-serif; color:#333;}
 #wrap {width:948px; margin:auto;}
 #topbar {background:url(../images/topbar.jpg) no-repeat; height:37px;}
-#header {background:url(../images/headerbg.jpg) repeat-x; height:128px; margin:0 2px 0 2px;}
+#header {background:url(../images/heade.jpg) repeat-x; height:128px; margin:0 2px 0 2px;}
 #content {padding:0 2px 0 2px;}
 #home_main, #main {width:545px; float:left; margin-bottom:8px;}
 #home_sidebar, #sidebar { width:390px; float:right; margin-bottom:8px;}
@@ -41,10 +41,10 @@ h1#logo { font: bold 30px Tahoma, Geneva, sans-serif; color:#C96B22;}
 }
 
 
-#search {background:url(../images/searchbg.jpg); height:301px;}
+#search {background:url(../images/hotbg.jpg); height:301px;}
 .hot {background:url(../images/hotbg.jpg); height:301px;}
 
-#topcategorieslink {background:url(../images/categoriesbg.jpg); height:44px; margin-bottom:8px;}
+#topcategorieslink { background-color:#FECE9D ; height:44px; margin-bottom:8px;}
 #search .container {
     background:#E3F6FC url(../images/nightpic.jpg) left bottom no-repeat;
     height:255px;
@@ -55,10 +55,25 @@ h1#logo { font: bold 30px Tahoma, Geneva, sans-serif; color:#C96B22;}
 #search .tab {
     height:30px;
     padding:5px 20px 0 10px;
+    background-color: #F9BE60;
 }
 .tab h2 {
     font: bold 18px "Trebuchet MS", Verdana, Arial, sans-serif;
     text-transform: uppercase;
+}
+
+
+#logoimg
+{
+position: relative;
+width:100px;
+height:100px;
+background-color:orange;
+background:url(../images/citybuildingscartoon.jpg);
+box-shadow: 10px 10px 5px #888888;
+border-radius:250px;
+top: 9px;
+left: 21px;
 }
 
 .tab ul {}
@@ -67,7 +82,7 @@ h1#logo { font: bold 30px Tahoma, Geneva, sans-serif; color:#C96B22;}
 .tab a:visited, .tab a:active {text-decoration:none; color:#e2f6fc;}
 .tab .active a, .tab .active a:visited, .tab .active a:active, .tab a:hover {background:url(../images/searchtab_active.jpg) repeat-x; color:#000;}
 .sidebar_head {
-    background: url(../images/hotheader.jpg);
+  background-color: #F9BE60;;;
     height:29px;
     padding:7px 8px 0;
     font: bold 18px "Trebuchet MS", Arial, sans-serif;
@@ -134,7 +149,7 @@ h1#logo { font: bold 30px Tahoma, Geneva, sans-serif; color:#C96B22;}
     margin-top: 18px;
 }
 #topcategorieslink h2 {
-    background: url(../images/topcategories_h2.jpg) no-repeat;
+    background: url(../images/navcat.jpg) no-repeat;
     height: 34px;
     width: 175px;
     padding-top: 12px;
@@ -145,7 +160,7 @@ h1#logo { font: bold 30px Tahoma, Geneva, sans-serif; color:#C96B22;}
     font: bold 18px "Trebuchet MS", Arial, sans-serif;
 }
 #main h1 {
-    background: url(../images/mainh2bg.jpg);
+   background-color: #F9BE60;
     font: bold 18px "Trebuchet MS", Arial, sans-serif;
     color: #000000;
     padding: 5px;
@@ -158,7 +173,7 @@ h1#logo { font: bold 30px Tahoma, Geneva, sans-serif; color:#C96B22;}
     display: block;
     padding: 10px;
     margin-bottom: 8px;
-    background: #f8f8f8;
+    background: wheat;
     border: 1px solid #eee;
 }
 .listing .listinfo {
@@ -307,6 +322,7 @@ a {
     width: 66px;
     border: 5px solid #C6BBAA;
     float: left;
+    margin-left: 4px;
 }
 #wrap #content #home_sidebar .hot h3 {
     margin-left: 86px;
@@ -335,7 +351,9 @@ h3 a:hover {
     background: url(../images/hotdiv.jpg) repeat-x center bottom;
     margin-right: 8px;
     margin-left: 8px;
+    background-color: wheat;
 }
+
 #wrap #footer {
     background: url(../images/footer.jpg) no-repeat;
     height: 132px;
@@ -365,6 +383,7 @@ h3 a:hover {
     border-right: 1px solid #9AB5BE;
     float: left;
 }
+
 #topcategorieslink a:hover {
     display: block;
     color: #000000;
@@ -382,6 +401,7 @@ h3 a:hover {
     padding-right: 200px;
     line-height: 22px;
     height: 70px;
+    background:url(../images/upperfotter.jpg) repeat-x;
 }
 #wrap #footer #lowerfooter {
     padding-top: 10px;
@@ -441,6 +461,7 @@ a.highlight {
     padding: 5px;
     padding-left: 25px;
     padding-right: 25px;
+    margin-bottom: 5px;
 }
 #wrap #content #main #paginations .current a {
     color: #FFFFFF;
